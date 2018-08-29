@@ -1,0 +1,13 @@
+type Thing {
+  id: ID!
+  name: String
+}
+
+type Query {
+  hello: String!
+  getThing(id: ID!): Thing
+}
+
+type Mutation {
+  addThing(name: String!): Thing
+}

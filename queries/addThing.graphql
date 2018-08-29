@@ -1,0 +1,6 @@
+mutation addThing($name: String!) {
+  addThing(name: $name) {
+    id
+    name
+  }
+}
